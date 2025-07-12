@@ -1,26 +1,66 @@
 {{- if not (.Param "hideFooter") }}
-<footer class="footer">
+<footer class="footer" style="text-align: center;">
+
+  {{- if .Site.Params.socialIcons }}
+  <div class="social-icons" style="margin-bottom: 1rem;">
+    {{- $solidIcons := slice "at" }}
+    {{- range .Site.Params.socialIcons }}
+      {{- $icon_name := (trim .name " " | lower) }}
+      <a
+        href="{{ trim .url " " }}"
+        {{ if ne $icon_name "at" }}target="_blank" rel="noopener"{{ end }}
+        style="border-bottom: none;"
+        title="{{ (.title | default .name) | title }}"
+        {{ if eq $icon_name "linkedin" }} data-proofer-ignore {{ end }}
+      >
+        <i class="{{ if in $solidIcons $icon_name }}fas{{ else }}fab{{ end }} fa-{{ $icon_name }}"></i>
+      </a>
+    {{- end }}
+  </div>
+{{- end }}
+
+  <!-- Text content -->
+  <div class="footer-text">
     {{- if not site.Params.footer.hideCopyright }}
-        {{- if site.Copyright }}
+      {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
-        {{- else }}
+      {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-        {{- end }}
-        {{- print " · "}}
+      {{- end }}
+      {{- print " · " }}
     {{- end }}
 
     {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
+      {{ . | markdownify }}
+      {{- print " · " }}
     {{- end }}
 
     <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+      Powered by
+      <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+      <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
+  </div>
+
+  <!-- Inline CSS for social icon styling -->
+  <style>
+    .social-icons a {
+      display: inline-block;
+      margin: 0 0.5rem;
+      font-size: 1.5rem;
+      color: inherit;
+      text-decoration: none !important;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #007acc;
+    }
+  </style>
+
 </footer>
 {{- end }}
+
 
 {{- if (not site.Params.disableScrollToTop) }}
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
