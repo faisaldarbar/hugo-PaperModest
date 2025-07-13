@@ -6,7 +6,6 @@ license = "MIT"
 licenselink = "https://github.com/faisaldarbar/hugo-PaperModest/blob/master/LICENSE"
 description = "A customized fork of PaperMod for my personal site. Shared for others, but not actively maintained."
 homepage = "https://github.com/faisaldarbar/hugo-PaperModest"
-demosite = "https://github.com/faisaldarbar/hugo-PaperModest"
 tags = [
   "responsive",
   "simple",

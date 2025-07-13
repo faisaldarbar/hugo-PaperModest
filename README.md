@@ -1,24 +1,53 @@
-# PaperModest
+# Hugo PaperModest
 
-A lightweight, slightly customized fork of the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) Hugo theme — built and tailored for my personal website [faisaldarbar.com](https://faisaldarbar.com).
+A clean, minimal, and fast Hugo theme — forked and customized from [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [@adityatelange](https://github.com/adityatelange).
 
-## 🚧 Status
-This theme works as of now, but I actively tweak it for my own needs. It may break without notice.  
-**Please use it only if you're comfortable with that.** No support or contributions are expected.
+**PaperModest** is designed with simplicity and elegance in mind, offering a beautiful reading experience out of the box.
 
-## ✨ Differences from PaperMod
-- Slight layout tweaks
-- TBA
+> 📄 MIT Licensed | ⚡ Fast | 📱 Responsive | ✏️ Content-Focused
 
-## 🧪 Demo (Planned)
-[https://faisaldarbar.github.io/hugo-PaperModest/](https://faisaldarbar.github.io/hugo-PaperModest/)
+---
 
-## 🔧 Usage
+## 🚀 Features
+
+- Clean and minimal design
+- Dark mode support
+- Responsive layout
+- Fast performance
+- Easy customization
+- Blog-focused
+
+---
+
+## 📦 Installation
+
+Inside your Hugo site directory, clone this theme:
+
 ```bash
-git submodule add https://github.com/faisaldarbar/hugo-PaperModest themes/hugo-papermodest
+git submodule add https://github.com/faisaldarbar/hugo-PaperModest.git themes/hugo-PaperModest
+```
 
-## 🙏 Disclaimer
+Then update your site config:
 
-This is shared in the spirit of open source, just like I benefited from others' work.  
-I’m not maintaining it actively, and I’m not accepting issues or contributions for now.  
-Use it freely, but at your own risk.
+```toml
+theme = "hugo-PaperModest"
+```
+
+---
+
+## 🧾 License
+
+MIT — see [LICENSE](https://github.com/faisaldarbar/hugo-PaperModest/blob/master/LICENSE)
+
+---
+
+## 🙏 Acknowledgements
+
+- Based on [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [@adityatelange](https://github.com/adityatelange)
+- Originally inspired by [Paper](https://github.com/nanxiaobei/hugo-paper) by [@nanxiaobei](https://github.com/nanxiaobei)
+
+---
+
+## 👤 Author
+
+[Faisal Darbar](https://faisaldarbar.com)
