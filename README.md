@@ -11,11 +11,11 @@ This theme works as of now, but I actively tweak it for my own needs. It may bre
 - TBA
 
 ## 🧪 Demo (Planned)
-[https://faisaldarbar.github.io/hugo-papermodest/](https://faisaldarbar.github.io/hugo-papermodest/)
+[https://faisaldarbar.github.io/hugo-PaperModest/](https://faisaldarbar.github.io/hugo-PaperModest/)
 
 ## 🔧 Usage
 ```bash
-git submodule add https://github.com/faisaldarbar/hugo-papermodest themes/hugo-papermodest
+git submodule add https://github.com/faisaldarbar/hugo-PaperModest themes/hugo-papermodest
 
 ## 🙏 Disclaimer
 

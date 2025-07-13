@@ -3,10 +3,10 @@
 
 name = "PaperModest"
 license = "MIT"
-licenselink = "https://github.com/faisaldarbar/hugo-papermodest/blob/main/LICENSE"
+licenselink = "https://github.com/faisaldarbar/hugo-PaperModest/blob/main/LICENSE"
 description = "A lightly customized fork of PaperMod for my personal site. Shared for others, but not actively maintained."
-homepage = "https://github.com/faisaldarbar/hugo-papermodest"
-demosite = "https://github.com/faisaldarbar/hugo-papermodest"
+homepage = "https://github.com/faisaldarbar/hugo-PaperModest"
+demosite = "https://github.com/faisaldarbar/hugo-PaperModest"
 tags = [
   "responsive",
   "simple",

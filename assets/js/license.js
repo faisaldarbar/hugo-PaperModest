@@ -1,6 +1,9 @@
 /*
-  PaperMod v8+
-  License: MIT https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE
-  Copyright (c) 2020 nanxiaobei and adityatelange
-  Copyright (c) 2021-2025 adityatelange
+  PaperModest (fork of PaperMod v8+)
+  License: MIT https://github.com/faisaldarbar/hugo-PaperModest/blob/master/LICENSE
+  Modifications by Faisal Darbar – https://faisaldarbar.com
+
+  Original Copyright:
+  (c) 2020 nanxiaobei and adityatelange
+  (c) 2021–2025 adityatelange
 */
