@@ -1,21 +1,16 @@
 # Hugo PaperModest
 
-A clean, minimal, and fast Hugo theme — forked and customized from [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [@adityatelange](https://github.com/adityatelange).
+Hugo PaperModest is a theme based on [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
-**PaperModest** is designed with simplicity and elegance in mind, offering a beautiful reading experience out of the box.
-
-> 📄 MIT Licensed | ⚡ Fast | 📱 Responsive | ✏️ Content-Focused
+The goal of this project is to add more features and customization to the original theme.
 
 ---
 
-## 🚀 Features
+## 🚀 Features/Mods
 
-- Clean and minimal design
-- Dark mode support
-- Responsive layout
-- Fast performance
-- Easy customization
-- Blog-focused
+- All features from the original theme.
+- Social icons from Font Awesome.
+- Additional features will be updated.
 
 ---
 
