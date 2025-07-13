@@ -1,45 +1,53 @@
 # Hugo PaperModest
 
-Hugo PaperModest is a fast, clean, and minimal Hugo theme.  
-It is a fork of <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener noreferrer">PaperMod</a>, with simplified styling and customizations by <a href="https://faisaldarbar.com" target="_blank" rel="noopener noreferrer">Faisal Darbar</a>.
+A clean, minimal, and fast Hugo theme — forked and customized from [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [@adityatelange](https://github.com/adityatelange).
+
+**PaperModest** is designed with simplicity and elegance in mind, offering a beautiful reading experience out of the box.
+
+> 📄 MIT Licensed | ⚡ Fast | 📱 Responsive | ✏️ Content-Focused
 
 ---
 
-## Features
+## 🚀 Features
 
-- Minimal & responsive design  
-- Dark/light mode toggle  
-- Super fast performance  
-- Customizable settings  
-- Blog-first UX  
+- Clean and minimal design
+- Dark mode support
+- Responsive layout
+- Fast performance
+- Easy customization
+- Blog-focused
 
 ---
 
-## Installation
+## 📦 Installation
+
+Inside your Hugo site directory, clone this theme:
 
 ```bash
-git clone https://github.com/faisaldarbar/hugo-PaperModest.git themes/hugo-papermodest
+git submodule add https://github.com/faisaldarbar/hugo-PaperModest.git themes/hugo-PaperModest
 ```
 
-Then, in your `config.toml` or `config.yaml`:
+Then update your site config:
 
 ```toml
-theme = "hugo-papermodest"
+theme = "hugo-PaperModest"
 ```
 
 ---
 
-## License
+## 🧾 License
 
-MIT — See <a href="https://github.com/faisaldarbar/hugo-PaperModest/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">LICENSE</a>
-
-Credits to:
-- <a href="https://github.com/adityatelange" target="_blank" rel="noopener noreferrer">@adityatelange</a> for <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener noreferrer">PaperMod</a>  
-- <a href="https://github.com/nanxiaobei" target="_blank" rel="noopener noreferrer">@nanxiaobei</a> for the original <a href="https://github.com/nanxiaobei/hugo-paper" target="_blank" rel="noopener noreferrer">Paper</a>
+MIT — see [LICENSE](https://github.com/faisaldarbar/hugo-PaperModest/blob/master/LICENSE)
 
 ---
 
-## Author
+## 🙏 Acknowledgements
 
-<a href="https://faisaldarbar.com" target="_blank" rel="noopener noreferrer">Faisal Darbar</a>  
-<a href="https://github.com/faisaldarbar" target="_blank" rel="noopener noreferrer">GitHub</a>
+- Based on [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by [@adityatelange](https://github.com/adityatelange)
+- Originally inspired by [Paper](https://github.com/nanxiaobei/hugo-paper) by [@nanxiaobei](https://github.com/nanxiaobei)
+
+---
+
+## 👤 Author
+
+[Faisal Darbar](https://faisaldarbar.com)
