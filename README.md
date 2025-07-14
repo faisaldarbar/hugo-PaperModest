@@ -10,7 +10,12 @@ The goal of this project is to add more features and customization to the origin
 
 - All features from the original theme.
 - Social icons from Font Awesome.
-- Additional features will be updated.
+- **New:** Custom post-free home layout (`customhome`) for clean landing pages.
+
+Additional features will be updated.
+
+📘 **See the [Wiki](https://github.com/faisaldarbar/hugo-PaperModest/wiki) for setup instructions and tips.**
+
 
 ---
 
