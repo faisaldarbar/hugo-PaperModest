@@ -14,7 +14,7 @@ The goal of this project is to add more features and customization to the origin
 
 Additional features will be updated.
 
-📘 **See the [Wiki](https://github.com/faisaldarbar/hugo-PaperModest/wiki) for setup instructions and tips.**
+📘 **[Set up a post-free landing page using the customhome layout →](https://github.com/faisaldarbar/hugo-PaperModest/wiki/Custom-Home-Layout)**
 
 
 ---
