@@ -10,6 +10,7 @@ The goal of this project is to add more features and customization to the origin
 
 - All features from the original theme.
 - Social icons from Font Awesome. (Wiki Page to be Added)
+- 🔍 **Strict and accurate on-site search** using [Fuse.js](https://fusejs.io/) with `threshold: 0` for precise results.
 - 📘 **[Set up a post-free landing page using the customhome layout →](https://github.com/faisaldarbar/hugo-PaperModest/wiki/Custom-Home-Layout)**
 
 Additional features will be updated.
