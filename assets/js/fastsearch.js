@@ -17,7 +17,7 @@ window.onload = function () {
                     // fuse.js options; check fuse.js website for details
                     let options = {
                         distance: 100,
-                        threshold: 0.4,
+                        threshold: 0,
                         ignoreLocation: true,
                         keys: [
                             'title',
