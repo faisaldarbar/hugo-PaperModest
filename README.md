@@ -52,3 +52,7 @@ MIT — see [LICENSE](https://github.com/faisaldarbar/hugo-PaperModest/blob/mast
 ## 👤 Author
 
 [Faisal Darbar](https://faisaldarbar.com)
+
+---
+
+Thank you!
