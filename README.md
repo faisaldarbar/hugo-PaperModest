@@ -55,4 +55,4 @@ MIT — see [LICENSE](https://github.com/faisaldarbar/hugo-PaperModest/blob/mast
 
 ---
 
-Thank you!
+Thank you!!
